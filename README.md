@@ -1,4 +1,11 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/ET-VISUAL/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ET-VISUAL/frontend-project-44/actions)
 
-asciinima test - https://asciinema.org/connect/d58276ec-2225-4481-b72d-fd6dadf9b7cc
+## Тест brain-even
+[![asciicast](https://asciinema.org)](https://asciinema.org/a/95Rbnmn837C70Mfx)
+
+## Тест brain-calc
+[![asciicast](https://asciinema.org)](https://asciinema.org/a/3L4Nyfda98nCGbqE)
+
+
+
