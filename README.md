@@ -3,8 +3,7 @@
 
 
 ## Тест brain-even
-[![asciicast](https://asciinema.org)](https://asciinema.org/a/95Rbnmn837C70Mfx)
+[![asciicast](https://asciinema.org/a/95Rbnmn837C70Mfx.svg)](https://asciinema.org/a/95Rbnmn837C70Mfx)
 
 ## Тест brain-calc
-[![asciicast](https://asciinema.org)](https://asciinema.org/a/3L4Nyfda98nCGbqE)
-
+[![asciicast](https://asciinema.org/a/3L4Nyfda98nCGbqE.svg)](https://asciinema.org/a/3L4Nyfda98nCGbqE)
