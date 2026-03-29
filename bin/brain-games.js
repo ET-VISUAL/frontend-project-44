@@ -3,8 +3,8 @@
 import { greet } from '../src/cli.js'
 
 export function app() {
-    console.log('Welcome to the Brain Games!')
+  console.log('Welcome to the Brain Games!')
 
-    greet()
+  greet()
 }
 app()

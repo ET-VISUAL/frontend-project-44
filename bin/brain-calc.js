@@ -7,36 +7,37 @@ const ROUNDS_COUNT = 3
 const arrOperators = ['+', '-', '*']
 
 function playBrainCalc() {
-    console.log('Welcome to the Brain Games!')
-    const userName = greet()
-    console.log('What is the result of the expression?')
+  console.log('Welcome to the Brain Games!')
+  const userName = greet()
+  console.log('What is the result of the expression?')
 
-    for (let round = 1; round <= ROUNDS_COUNT; round++) {
-        const num1 = Math.floor(Math.random() * 30) + 1
-        const num2 = Math.floor(Math.random() * 30) + 1
-        const operator = arrOperators[Math.floor(Math.random() * arrOperators.length)]
-        const correctAnswer = calculate(num1, num2, operator)
+  for (let round = 1; round <= ROUNDS_COUNT; round++) {
+    const num1 = Math.floor(Math.random() * 30) + 1
+    const num2 = Math.floor(Math.random() * 30) + 1
+    const operator = arrOperators[Math.floor(Math.random() * arrOperators.length)]
+    const correctAnswer = calculate(num1, num2, operator)
 
-        console.log(`Question: ${num1} ${operator} ${num2}`)
-        const userAnswer = readlineSync.question(`Your answer: `).trim()
+    console.log(`Question: ${num1} ${operator} ${num2}`)
+    const userAnswer = readlineSync.question(`Your answer: `).trim()
 
-        if (parseInt(userAnswer) === correctAnswer) {
-            console.log('Correct!')
-        } else {
-            console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
-            console.log(`Let's try again, ${userName}`)
-            return
-        }
+    if (parseInt(userAnswer) === correctAnswer) {
+      console.log('Correct!')
     }
-    console.log(`Congratulations, ${userName}!`)
+    else {
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
+      console.log(`Let's try again, ${userName}`)
+      return
+    }
+  }
+  console.log(`Congratulations, ${userName}!`)
 }
 playBrainCalc()
 
 function calculate(num1, num2, operator) {
-    switch (operator) {
-        case '+': return num1 + num2
-        case '-': return num1 - num2
-        case '*': return num1 * num2
-        default: return null
-    }
+  switch (operator) {
+    case '+': return num1 + num2
+    case '-': return num1 - num2
+    case '*': return num1 * num2
+    default: return null
+  }
 }
