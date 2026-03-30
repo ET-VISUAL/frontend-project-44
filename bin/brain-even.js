@@ -3,14 +3,14 @@
 import readlineSync from 'readline-sync'
 import { greet } from '../src/cli.js'
 
-const ROUNDS_COUNT = 3 //константа для раундов
+const ROUNDS_COUNT = 3 // константа для раундов
 
-//функция принимает на вход то число, которое делится на два без остатка, тоесть четное.
+// функция принимает на вход то число, которое делится на два без остатка, тоесть четное.
 function isEven(number) {
   return number % 2 === 0
 }
 
-//функция возвращает случайную генерацию
+// функция возвращает случайную генерацию
 function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min
 }
@@ -25,7 +25,7 @@ function playBrainEven() {
     const correctAnswer = isEven(randomNumber) ? 'yes' : 'no'
 
     console.log(`Question: ${randomNumber}`)
-    //константа ниже спрашивает ответ юзера, а методы помогают распределить правильность строк trim, и буквы в нижнем регистре toLowerCase
+    // константа ниже спрашивает ответ юзера, а методы помогают распределить правильность строк trim, и буквы в нижнем регистре toLowerCase
     const userAnswer = readlineSync.question('Your answer: ').trim().toLowerCase()
 
     if (userAnswer !== correctAnswer) {
