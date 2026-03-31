@@ -23,7 +23,7 @@ function playBrainGcd() {
   console.log('Find the greatest common divisor of given numbers.')
 
   for (let round = 1; round < 4; round++) {
-    //NOSONAR
+    // NOSONAR
     const a = Math.floor(Math.random() * 30) + 1
     // NOSONAR
     const b = Math.floor(Math.random() * 30) + 1

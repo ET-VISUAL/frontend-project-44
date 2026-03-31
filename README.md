@@ -10,3 +10,6 @@
 
 # Тест brain-gcd
 [![asciicast](https://asciinema.org/a/od1VCnKozYTAsNnj.svg)](https://asciinema.org/a/od1VCnKozYTAsNnj)
+
+# Тест brain-progression
+[![asciicast](https://asciinema.org/a/B95ctptD24EcHP0a.svg)](https://asciinema.org/a/B95ctptD24EcHP0a)
