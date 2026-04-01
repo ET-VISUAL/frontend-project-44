@@ -16,7 +16,7 @@ function isPrime(num) {
 }
 
 function randomJustNumber() {
-    return Math.floor(Math.random() * 10) + 1
+    return Math.floor(Math.random() * 100) + 2
 }
 
 function playBrainPrime() {
@@ -24,9 +24,9 @@ function playBrainPrime() {
     const userName = greet()
     console.log('Answer "yes" if given number is prime. Otherwise answer "no".')
 
-    for (let round = 1; round < 4; round++) {
+    for (let round = 1; round <= 3; round++) {
         const randomNumber = randomJustNumber()
-        const correctAnswer = isPrime() ? 'yes' : 'no'
+        const correctAnswer = isPrime(randomNumber) ? 'yes' : 'no'
 
         console.log(`Question: ${randomNumber}`)
         const userAnswer = readlineSync.question(`Your answer: `).trim().toLowerCase()

@@ -16,3 +16,6 @@
 
 # Тест brain-progression
 [![asciicast](https://asciinema.org/a/B95ctptD24EcHP0a.svg)](https://asciinema.org/a/B95ctptD24EcHP0a)
+
+# Тест brain-prime
+[![asciicast](https://asciinema.org/a/559namDSG8jAZgdj.svg)](https://asciinema.org/a/559namDSG8jAZgdj)
