@@ -53,7 +53,7 @@ function playBrainProgression() {
     }
     else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'`)
-      console.log(`Let's try again, ${userName}`)
+      console.log(`Let's try again, ${userName}!`)
       return
     }
   }
