@@ -1,8 +1,9 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/ET-VISUAL/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ET-VISUAL/frontend-project-44/actions)
 
-## I AM LEGEND
-![My project](https://cojo.ru/wp-content/uploads/2022/12/chelovek-v-maske-i-kapiushone-12.webp)
+<img src="https://cojo.ru/wp-content/uploads/2022/12/chelovek-v-maske-i-kapiushone-12.webp" width="300" alt="brain-games">
+
+**Проект поддерживается тем, кто не боится лезть в код.**  
 
 ### SonarQube tests my project
 [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=ET-VISUAL_frontend-project-44)
