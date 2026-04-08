@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/ET-VISUAL/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ET-VISUAL/frontend-project-44/actions)
 
-<img src="https://cojo.ru/wp-content/uploads/2022/12/chelovek-v-maske-i-kapiushone-12.webp" width="300" alt="brain-games">
+<img src="https://cojo.ru/wp-content/uploads/2022/12/votch-dogs-2-rench-4-1.webp" width="300" alt="brain-games">
 
 **Проект поддерживается тем, кто не боится лезть в код.**  
 
